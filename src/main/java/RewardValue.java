@@ -5,7 +5,7 @@ public class RewardValue {
         this.cashValue = cashValue;
         this.milesValue = cashValue/0.0035;
     }
-    public RewardValue(String a, double milesValue){
+    public RewardValue(int milesValue){
         this.milesValue = milesValue;
         this.cashValue = milesValue*0.0035;
     }
